@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InvoceCustomCodeApi.Host", "InvoceCustomCodeApi.Host\InvoceCustomCodeApi.Host.csproj", "{613FE593-235B-4D5F-900B-BFCF8BD7D975}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "config", "config", "{18C0F057-99DF-4788-A88E-D837CCE987D3}"
+	ProjectSection(SolutionItems) = preProject
+		Directory.Build.props = Directory.Build.props
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InvoceCustomCodeApiCore", "InvoceCustomCodeApiCore\InvoceCustomCodeApiCore.csproj", "{29350A5A-59BB-490D-98CD-2CCAB5B19D4A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InvoceCustomCodeApiCustom", "InvoceCustomCodeApiCustom\InvoceCustomCodeApiCustom.csproj", "{2F1EB6CD-7A73-41EA-B735-D126329A4B6E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{613FE593-235B-4D5F-900B-BFCF8BD7D975}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{613FE593-235B-4D5F-900B-BFCF8BD7D975}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{613FE593-235B-4D5F-900B-BFCF8BD7D975}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{613FE593-235B-4D5F-900B-BFCF8BD7D975}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29350A5A-59BB-490D-98CD-2CCAB5B19D4A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29350A5A-59BB-490D-98CD-2CCAB5B19D4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29350A5A-59BB-490D-98CD-2CCAB5B19D4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29350A5A-59BB-490D-98CD-2CCAB5B19D4A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F1EB6CD-7A73-41EA-B735-D126329A4B6E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F1EB6CD-7A73-41EA-B735-D126329A4B6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F1EB6CD-7A73-41EA-B735-D126329A4B6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F1EB6CD-7A73-41EA-B735-D126329A4B6E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
